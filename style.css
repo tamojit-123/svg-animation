@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding: 100px;
+}
+
+#manHead {
+    animation: manhead 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes manhead {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(-20deg);
+    }
+}
+
+#GirlHead {
+    animation: girlhead 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes girlhead {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(30deg);
+    }
+}
+
+#GirlHand {
+    animation: girlhand 4s ease-in-out infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes girlhand {
+    0%, 100% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
+#Vector_8 {
+    animation: hamburgers 1s ease infinite alternate 1s;
+    transform-origin: right;
+}
+
+#Vector_9 {
+    animation: hamburgers 1s ease infinite alternate 0.5s;
+    transform-origin: right;
+}
+
+#Vector_10 {
+    animation: hamburgers 1s ease infinite alternate 0.15s;
+    transform-origin: right;
+}
+
+
+@keyframes hamburgers {
+    from {
+        transform:scaleX(0)
+    }
+    to {
+        transform:scaleX(1)
+    }
+}
+
+#BigLeaf {
+    animation: leaf 2s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#leafOne {
+    animation: leaf 3s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+#leafTwo {
+    animation: leaf 3s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes leaf {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(-20deg);
+    }
+}
+
+#Vector_26 {
+    animation: seekBar 3s ease infinite alternate 1s;
+    transform-origin: left;
+}
+
+@keyframes seekBar {
+    from {
+        transform:scaleX(0.90)
+    }
+    to {
+        transform:scaleX(1)
+    }
+}
+
+#Vector_27 {
+    animation: seekBall 3s ease infinite alternate 1s;
+    transform-origin: left;
+}
+
+@keyframes seekBall {
+    from {
+        transform:scaleX(0.90)
+    }
+    to {
+        transform:scaleX(1)
+    }
+}
+
+
